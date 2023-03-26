@@ -224,6 +224,11 @@ ul {
   cursor: pointer;
   background-color: var(--main-color);
   border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .hero-btn:hover {
@@ -455,6 +460,11 @@ ul {
   outline: none;
   padding: 15px;
   min-width: 200px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .contact .container .box textarea {
@@ -466,6 +476,11 @@ ul {
   margin: 10px;
   padding: 15px;
   resize: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .contact .container .box .hero-btn {
