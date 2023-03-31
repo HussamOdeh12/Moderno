@@ -4,6 +4,7 @@
 
 - HTML
 - CSS
+- SCSS
 - JavaScript
 - Visual Studio Code
 

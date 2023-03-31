@@ -1,0 +1,106 @@
+.contact {
+  padding-top: $main-section-padding;
+  padding-bottom: $main-section-padding;
+  position: relative;
+  .content {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+    h3 {
+      font-size: 30px;
+      font-weight: 300;
+      margin-bottom: -10px;
+    }
+    p {
+      font-size: 16px;
+      color: #827e7e;
+      line-height: 25px;
+      margin-bottom: 70px;
+    }
+    iframe {
+      width: 70%;
+      height: 350px;
+    }
+  }
+  .container {
+    max-width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    .box {
+      position: relative;
+      input {
+        display: inline-block;
+        margin: 10px;
+        width: 90%;
+        height: 50px;
+        background-color: #f1f4f7;
+        border: none;
+        outline: none;
+        padding: 15px;
+        min-width: 200px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+      }
+      textarea {
+        width: 90%;
+        height: 200px;
+        background-color: #f1f4f7;
+        border: none;
+        outline: none;
+        margin: 10px;
+        padding: 15px;
+        resize: none;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+      }
+      .hero-btn {
+        margin: 10px;
+        width: 90%;
+        height: 50px;
+        font-size: 20px;
+      }
+      span {
+        display: block;
+        width: 200px;
+        h3 {
+          font-size: 30px;
+          font-weight: 300;
+        }
+        p {
+          font-size: 16px;
+          color: #827e7e;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    .content {
+      p {
+        width: 90%;
+        text-align: center;
+        margin: 50px auto;
+      }
+    }
+    .container {
+      flex-direction: column;
+      text-align: center;
+      .box {
+        margin: 20px auto;
+      }
+    }
+  }
+}
+
+/*-----------------------------------------*/
